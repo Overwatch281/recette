@@ -1,0 +1,130 @@
+body{
+    background-color: #8ba1bb;
+   font-family: Arial;
+}
+
+
+div.contenu {
+   background-color: white;
+   margin: 50px 10% 50px 10%;
+   padding: 30px;
+   min-width: 350px;
+}
+h1 {
+   text-align: center;
+   margin-bottom: 12px;
+}
+p.description {
+   text-align: center;
+   max-width: 400px;
+   display: inline-block;
+   font-size: 15px;
+}
+.centre {
+   text-align: center;
+   width: 100%;
+}
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+div.categorie {
+    margin-bottom: -70px;
+    margin-top: 60px;
+}
+div.separateur {
+   width: 100px;
+   height: 2px;
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+}
+table.info {
+   position: absolute; 
+   bottom: 0px; 
+   width: 100%; 
+   color: white; 
+   background-color: #6c829dC0; 
+   height: 80px;
+}
+table.info td {
+   text-align: center;
+   font-size: 14px;
+   vertical-align: top;
+}
+table.info th {
+   font-size: 14px;
+   vertical-align: bottom;
+   padding: 8px;
+}
+
+img.info {
+    display: block;
+    max-width: 500px;
+    object-fit: cover;
+    min-width: 200px;
+    width: 100%;
+}
+div.colonne {
+    width: 50%;
+    margin-top: 20px;
+}
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 10px solid #8ba1bb;
+    padding-bottom: 5px;
+
+
+}
+
+div.colonne1 {
+    display: inline-block;
+    margin-right: 0;
+
+
+}
+div.colonne2 {
+    float: right;
+}
+div.ingredient p {
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+table.preparation p.numero {
+    background-color: #6C829D;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+
+}
+table.preparation td {
+    vertical-align: top;
+}
+
+table.preparation td.etape {
+    font-size: 15px;
+
+}
+* {
+    overflow: auto;
+}
